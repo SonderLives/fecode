@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>表单标签学习</title>
+</head>
+
+<body>
+	<form action="https//47.98.187.7:8080">
+		姓名:<input type="text">
+		<br />
+		密码:<input type="password">
+		<br />
+		性别:
+		<input type="radio" name="sex" checked="checked" id="male">
+		<label for="male">男</label>
+		<input type="radio" name="sex" id="female">
+		<label for="female">女</label>
+		<br/>
+		爱好:
+		<input type="checkbox">唱
+		<input type="checkbox">跳
+		<input type="checkbox">rap
+		<br>
+		专业:
+		<select name="" id="">
+			<option value="">机器人工程</option>
+			<option value="" selected="selected">计算机科学技术</option>
+			<option value="">能源工程</option>
+			<option value="">自动化</option>
+			<option value="">法律学</option>
+		</select>
+		<br>
+		<input type="button" value="确定" onclick="alert('信息错误')">
+		<br>
+		<input type="submit" value="提交">
+		<br>
+		<input type="reset" value="重置">
+		<br>
+		<input type="file">
+		<br>
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+	</form>
+</body>
+
+</html>
