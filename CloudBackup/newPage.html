@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>文件列表显示</title>
+<body>
+	<div class="center">
+		<form action="http://47.98.187.7:8080/upload" method="post" enctype="multipart/form-data">
+			<h3>请选择你要上传的文件</h3>
+			<div class="btn-group">
+				<input type="file" name="file">
+				<input type="submit" value="上传">
+			</div>
+		</form>
+		<div>
+			<h1>备份文件列表:</h1>
+			<table cellspacing="30" cellpadding="1">
+				<thead>
+					<tr>
+						<th>文件名称</th>
+						<th>上传时间</th>
+						<th>文件大小</th>
+					</tr>
+					<tr>
+						<th colspan="10">
+							<hr>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="https://ftp.gnu.org/gnu/gdb/gdb-5.2.1.tar.gz">gdb-5.2.1.tar.gz</a></td>
+						<td>2002-07-23 11:24</td>
+						<td>14M</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+
+</html>
